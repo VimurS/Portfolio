@@ -1,0 +1,216 @@
+.HomeMain{
+    background-color: black !important;
+    /* padding: 10% 10% 25% 10% !important; */
+    padding: 200px 10% 300px 10% !important;
+    font-family: termina !important;
+}
+
+
+
+.NmaeSpan{
+  width: 100% !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  position: relative !important;
+  background-color: black !important; 
+
+}
+
+.namePara {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 10px !important;
+  padding-bottom: 30px !important;
+  -webkit-text-stroke-color: lime !important;
+  -webkit-text-stroke-width: 1px !important;
+  font-family: termina, sans-serif;
+  color: rgba(255, 255, 255, 0) !important;
+  font-size: 6.1vw !important;
+  line-height: 0.9 !important;
+  font-weight: 900 !important;
+  letter-spacing: -0.02em !important;
+  text-transform: uppercase;
+  white-space: nowrap !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  background: linear-gradient(to right, lime 50%, black 50%); /* Create a gradient pattern */
+  background-size: 200% 100%; /* Make the background twice as wide as the element */
+  animation: scroll-color 12s linear infinite !important; /* Animate the background position */
+}
+
+@keyframes scroll-color {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: 0% 0;
+  }
+}
+
+
+
+
+.helloPara{
+    font-family: termina-light !important;
+    margin: 0 !important;
+    font-size: 27px;
+    color: white;
+}
+
+@font-face {
+    font-family: "termina";
+    src: local("termina"),
+      url("../fonts/termina/TerminaTest-Heavy.otf") format("opentype");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "termina-light";
+    src: local("termina"),
+      url("../fonts/termina/TerminaTest-Regular.otf") format("opentype");
+    font-weight: bold;
+  }
+
+  .typing-container {
+    font-family: benzin, sans-serif;
+    font-size: 2em;
+    white-space: normal;
+    overflow: hidden;
+    animation: blink-caret 0.75s step-end infinite;
+    height: 4em; /* Adjust this value as needed to fit your text */
+    line-height: 1.1;
+}
+
+.typing-text {
+    display: inline-block;
+    color: lightslategray;
+    word-wrap: break-word;
+}
+
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: lime; }
+  }
+
+  .meatcafe{
+    display: none;
+  }
+
+  .spinwheel{
+    display: none;
+  }
+  
+  .text-circle span{
+display: none;
+  }
+
+  
+@media (min-width: 300px) and (max-width: 700px) {
+
+.HomeMain{
+    /* padding: 20% 10% 25% 10% !important; */
+    padding: 200px 10% 300px 10% !important;
+}
+
+.helloPara{
+  font-size: 16px;
+}
+
+.typing-container {
+font-size: 24px;
+}
+
+}
+
+@media (min-width: 100px) and (max-width: 600px) {
+  .meatcafe {
+    display: inline-block !important;
+    /* padding: 20% 0; */
+    width: -webkit-fill-available !important;
+    
+  }
+
+  .spinwheel{
+    display: inline-block !important;
+  }
+
+.HomeMain{
+  padding: 20% 4% 12% 4% !important;
+  /* padding: 50px 10% 10% 10% !important; */
+}
+
+.namePara{
+  font-size: 7.1vw !important;
+}
+
+
+
+
+.container {
+  position: relative;
+  display: inline-block;
+  padding: 0 !important;
+  margin: 0 !important;
+  max-width: -webkit-fill-available !important;
+}
+
+.meatcafe {
+  display: block;
+}
+
+.spinwheel {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  top: 92%;
+  z-index: 2;
+}
+
+.text-circle {
+  height: 100px;
+  border-radius: 50%;
+  animation: spin 10s linear infinite;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+  top: 92%;
+  z-index: 2;
+}
+
+.text-circle span {
+  font-family: BATMAN;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform-origin: center center;
+  color: white;
+  z-index: 3;
+  /* top: 20%; */
+}
+
+.text-circle span:nth-child(1) { transform: rotate(0deg)   translateY(-50%); }
+.text-circle span:nth-child(2) { transform: rotate(30deg)  translateY(-50%); }
+.text-circle span:nth-child(3) { transform: rotate(60deg)  translateY(-50%); }
+.text-circle span:nth-child(4) { transform: rotate(90deg)  translateY(-50%); }
+.text-circle span:nth-child(5) { transform: rotate(120deg) translateY(-50%); }
+.text-circle span:nth-child(6) { transform: rotate(150deg) translateY(-50%); }
+.text-circle span:nth-child(7) { transform: rotate(180deg) translateY(-50%); }
+.text-circle span:nth-child(8) { transform: rotate(210deg) translateY(-50%); }
+.text-circle span:nth-child(9) { transform: rotate(240deg) translateY(-50%); }
+.text-circle span:nth-child(10) { transform: rotate(270deg) translateY(-50%); }
+.text-circle span:nth-child(11) { transform: rotate(300deg) translateY(-50%); }
+.text-circle span:nth-child(12) { transform: rotate(330deg) translateY(-50%); }
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+}

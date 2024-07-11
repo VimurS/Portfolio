@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "termina";
+    src: local("termina"),
+      url("../fonts/termina/TerminaTest-Heavy.otf") format("opentype");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "benzin";
+    src: local("benzin"),
+      url("../fonts/benzin//Benzin-Bold.ttf") format("opentype");
+    font-weight: bold;
+  }
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #2a2a2a !important;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50% !important;
+}
+
+.carousel-indicators {
+bottom: -50px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+   height: 30px !important;
+}
+
+.projectMain{
+    width: 100%;
+    background-color: white;
+    padding: 12% 10% !important;
+    font-family: termina !important;
+    position: relative;
+
+}
+
+.projectMain h2{
+    text-align: center;
+    margin-bottom: 7%;
+    color: lime;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.caroItem{
+  position: relative;
+}
+
+/* .caro{
+height: 60vw;
+
+} */
+
+.caroImg{
+    border-radius: 20px !important;
+    transition: opacity 0.5s ease;
+    
+  }
+
+  .projectMain .caroImg {
+    transition: opacity 0.5s ease;
+  }
+  
+  /* Hover effect: fading the image */
+  .projectMain .caroItem:hover .caroImg {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+.carousel-control-prev-icon {
+display: none !important;
+}
+
+.carousel-control-next-icon {
+display: none !important;
+}
+
+.carosText{
+  font-family: termina;
+  padding: 5% 0%;
+  text-align: left;
+  font-size: 30px;
+}
+
+.CaroSpanPara{
+  margin-bottom: 1rem !important;
+}
+
+.caroLink {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  font-size: 10em;
+  color: lime;
+}
+
+.caroItem:hover .caroLink {
+  display: block;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  .projectMain h2{
+    font-size: 24px;
+    margin-bottom: 15%;
+  }
+
+  .projectMain{
+    padding: 16% 10% !important;
+    /* height: 100vh; */
+  }
+
+  .caroLink {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 5em;
+
+  }
+
+  /* .caro{
+    height: 22em;
+  } */
+
+  .carosText{
+    font-family: termina;
+    padding: 5% 0%;
+    text-align: left;
+    font-size: 12px;
+  }
+}

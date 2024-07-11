@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "termina";
+  src: local("termina"),
+    url("../fonts/termina/TerminaTest-Heavy.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "termina";
+  src: local("termina"),
+    url("../fonts/termina/TerminaTest-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "batman";
+  src: local("batman"),
+    url("../fonts/batman//batmfa__.ttf") format("opentype");
+  font-weight: bold;
+}
+
+.AboutMain{
+    background-color: black;
+    padding: 0 10% !important;
+}
+
+.about {
+  color: black;
+  align-self: center;
+  margin-left: 0% !important;
+  font-family: Benzin, sans-serif;
+  font-size: 108px;
+  font-weight: 900;
+  line-height: 164px;
+  position: absolute;
+  top: 340%;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+  transform: rotate(-90deg) !important;
+  -webkit-text-stroke-color: lime !important;
+  -webkit-text-stroke-width: 1px !important;
+  width: 20%;
+  display: flex;
+  float: left;
+}
+
+.aboutText {
+  width: 80%;
+  display: inline-block;
+  float: right;
+  font-family: batman;
+  font-size: 18px;
+  color: #495057c9;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+}
+
+/* .aboutText a {
+  text-decoration: none;
+  color: #007bff;
+} */
+
+.aboutText a:hover {
+  color: white ;
+}
+
+.aboutText p {
+  margin: 0 0 1em 0;
+}
+
+
+.aboutTexts{
+  display: inline;
+  text-decoration: none;
+  color: lime;
+  cursor: pointer;
+}
+
+.aboutTextss{
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+
+.scrollings-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  background-color: black;
+  padding: 10% 0 !important;
+}
+
+.scrollings-text {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* padding-right: 5vw;
+  padding-top: 60px;
+  padding-bottom: 60px; */
+  font-family: batman;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 2px;
+      color: rgba(255, 255, 255, 0);
+      font-size: 10.1vw;
+      line-height: 0.9;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      white-space: nowrap;
+      animation: scroll-text 20s linear infinite;
+}
+
+.arrowImg{
+  color: lime;
+  background-color: lime;
+  width: -webkit-fill-available !important;
+}
+
+
+@keyframes scroll-text {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+  
+@media (min-width: 300px) and (max-width: 700px) {
+
+  /* .AboutMain{
+    padding: 10% 10% 100% 10% !important;
+
+  } */
+
+  .aboutText{
+    font-size: 14px;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .scrollings-text{
+    font-size: 8.1vw;
+    -webkit-text-stroke-width: 1px;
+  }
+
+  .about {
+    color: black;
+    align-self: center;
+    margin-left: 0% !important;
+    font-family: Benzin, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 150px;
+    position: relative;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    transform: none !important;
+    -webkit-text-stroke-color: lime !important;
+    -webkit-text-stroke-width: 1px !important;
+    width: 100%;
+    display: block;
+    text-align: center;
+    /* float: left; */
+  }
+
+
+}
+
+@media (min-width: 100px) and (max-width: 600px) {
+.scrollings-text{
+  display: none !important;
+}
+}

@@ -1,0 +1,22 @@
+.allPage{
+    /* background-color: black !important; */
+    margin:  0 !important;
+    padding: 0 !important;
+   position: relative;
+}
+
+
+
+@font-face {
+    font-family: "termina";
+    src: local("termina"),
+      url("../fonts/termina/TerminaTest-Heavy.otf") format("opentype");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "termina-light";
+    src: local("termina"),
+      url("../fonts/termina/TerminaTest-Regular.otf") format("opentype");
+    font-weight: bold;
+  }

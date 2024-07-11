@@ -1,0 +1,206 @@
+ .ConContainer{
+    width: 50%;
+  }
+
+  .ConSep{
+    display: flex;
+    padding-bottom: 10%;
+  }
+
+  @font-face {
+    font-family: "benzin";
+    src: local("benzin"),
+      url("../fonts/benzin/Benzin-Bold.ttf") format("opentype");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "termina";
+    src: local("termina"),
+      url("../fonts/termina/TerminaTest-Heavy.otf") format("opentype");
+    font-weight: bold;
+  }
+
+/* contact starts here */
+  .footer {
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color: black;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    color: darkgray;
+    font-size: 10px;
+    /* padding-bottom: 10px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.footer2 {
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color: black;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    color: darkgray;
+    font-size: 10px;
+    padding-bottom: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.footer2Dark {
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: black;
+  margin-bottom: -1px;
+  margin-top: -1px;
+  color: red;
+  font-size: 10px;
+  padding-bottom: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+.svgss {
+  font-size: 70px;
+  /* background-color: lightgrey; */
+  /* padding: 10px; */
+  margin: 12px;
+  /* color: lightgray; */
+  transition: filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.svgss:hover {
+  filter: brightness(0.8); /* Dull the color on hover */
+  font-size: 80px;
+}
+
+.ContactsPageBG{
+    /* padding: 5% 5% 1% 5%; */
+    padding: 5% 10% 1% 10%;
+    background-color: black;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.ContactPage{
+    padding: 5% 0% 0% 0%;
+}
+
+.ContactHead{
+    margin-bottom: 0.5rem;
+    position: relative;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    z-index: 1;
+    color:rgb(241 241 241);
+    display: inline-block;
+    font-family: benzin !important;
+  }
+
+.ContactHead::after {
+    position: absolute;
+    content: "04";
+    left: 5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(103 103 103 / 32%);
+    z-index: -1;
+    font-size: 8rem;
+}
+
+.contactText{
+  font-family: benzin;
+}
+
+
+@media (min-width: 300px) and (max-width: 800px) {
+  
+  .hrContact{
+    /* border-bottom: 2px dotted lightgray; */
+    padding-bottom: 6%;
+    /* position: relative; */
+  }
+
+  .hrContact::after {
+    content: ""; 
+    display: block;
+    /* position: absolute;  Position the dots relative to the parent */
+    /* left: 0;
+    bottom: 0; */
+    border-radius: 80%;
+    width: 100%; /* Make sure it spans the width of the parent */
+    height: 4px; /* Height of the line */
+    animation: blink 2s infinite;
+    background-image: repeating-linear-gradient(to right, transparent, transparent 8px, rgb(80, 80, 80) 8px, rgb(80, 80, 80) 12px); /* Adjust the numbers to control the gap and size of dots */
+}
+
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+  
+  .ContactsPageBG{
+    padding: 10% 10% 1% 10% !important;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+  }
+  
+  .ContactHead{
+    font-size: 24px;
+  }
+
+  .contactText{
+    font-size: 20px !important;
+  }
+
+  .contactText11{
+    padding-top: 10% !important;
+  }
+  
+  .ContactHead::after{
+      font-size: 5rem;
+  }
+  
+  .svgss{
+      margin: 8px;
+  }
+  
+  .ConContainer{
+    width: 100%;
+  }
+  
+  .ConSep{
+    display: block;
+  }
+
+  .svgss {
+    font-size: 50px;
+  }
+  
+  .svgss:hover {
+    font-size: 60px;
+  }
+
+  .ContactHead::after {
+    position: absolute;
+    content: "04";
+    left: 11%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(103 103 103 / 32%);
+    z-index: -1;
+    font-size: 4rem;
+}
+    
+      }
+
+/* contact end */
