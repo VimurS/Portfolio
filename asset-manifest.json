@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.69a7a4ae.css",
+    "main.js": "/Portfolio/static/js/main.08bf4dac.js",
+    "static/js/453.ed3810f9.chunk.js": "/Portfolio/static/js/453.ed3810f9.chunk.js",
+    "static/media/meatcafe.jpg": "/Portfolio/static/media/meatcafe.87a96c2c2663549b01f6.jpg",
+    "static/media/me.png": "/Portfolio/static/media/me.e2c6255bbb357a60bb40.png",
+    "static/media/covns.jpg": "/Portfolio/static/media/covns.270b2795552f163bca65.jpg",
+    "static/media/Benzin-Bold.ttf": "/Portfolio/static/media/Benzin-Bold.f4826ddcf24e7e1ed982.ttf",
+    "static/media/VerB.jpg": "/Portfolio/static/media/VerB.252ef061e67e8263d39f.jpg",
+    "static/media/nsitlogo.jpg": "/Portfolio/static/media/nsitlogo.2b6aadc11fcf36cb5249.jpg",
+    "static/media/batmfa__.ttf": "/Portfolio/static/media/batmfa__.83168830dd1fb811c114.ttf",
+    "static/media/arrowline.png": "/Portfolio/static/media/arrowline.7e7b4a809879335cb1e5.png",
+    "static/media/TerminaTest-Heavy.otf": "/Portfolio/static/media/TerminaTest-Heavy.b73d83265be25d7bf704.otf",
+    "static/media/TerminaTest-Bold.otf": "/Portfolio/static/media/TerminaTest-Bold.fbe09ff096cdce4c04c0.otf",
+    "static/media/TerminaTest-Regular.otf": "/Portfolio/static/media/TerminaTest-Regular.f837bfd032214b88fe55.otf",
+    "index.html": "/Portfolio/index.html",
+    "main.69a7a4ae.css.map": "/Portfolio/static/css/main.69a7a4ae.css.map",
+    "main.08bf4dac.js.map": "/Portfolio/static/js/main.08bf4dac.js.map",
+    "453.ed3810f9.chunk.js.map": "/Portfolio/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69a7a4ae.css",
+    "static/js/main.08bf4dac.js"
+  ]
+}
