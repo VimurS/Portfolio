@@ -30,7 +30,7 @@ function Projects() {
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
             </Carousel.Caption>
             <div className='carosText'>
-              <p>Covns is an inhouse web product of <a href="https://www.instagram.com/xyzspace.in/" target="_blank" className="aboutTexts">XYZspace.in</a> developed for a dairy startup based out of Coimbatore.</p>
+              <p>Covns is an inhouse web product of <a href="https://www.instagram.com/xyzspace.in/" target="_blank" className="aboutTexts">XYZspace.in</a> developed for a dairy startup based out of Coimbatore</p>
             </div>
             <a href="https://vimurs.github.io/Covns/" target='_blank' className="caroLink">
               <FaLink />
@@ -43,7 +43,7 @@ function Projects() {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
             </Carousel.Caption>
             <div className='carosText'>
-              <p><FaLock style={{color:"lime"}} /> 5 Elements is a GenAI powered Knowledge Engineering SaaS Platform developed under (NDA) at Neural Schema.</p>
+              <p><FaLock style={{color:"lime"}} /> 5 Elements is a GenAI powered Knowledge Engineering SaaS Platform developed under (NDA)</p>
               {/* <span>ROLE: Software Engineer</span><br />
               <span>PROJECT: 5 Elements</span><br /> */}
             </div>
@@ -58,7 +58,7 @@ function Projects() {
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
             </Carousel.Caption>
             <div className='carosText'>
-              <p>VerB Health is a prototype Hospital Management System web app developed for fun and learning with a team of 3.</p>
+              <p>VerB Health is a prototype Hospital Management System web app developed for fun and learning with a team of 3</p>
             </div>
             <a href="https://github.com/VimurS/VerbHealth" target='_blank' className="caroLink">
               <FaLink />

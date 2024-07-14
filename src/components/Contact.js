@@ -32,7 +32,7 @@ function Contact() {
 
         <div className="ContactPage">
           <div className="ConSep">
-            <div data-aos="fade-left" data-aos-easing="linear" className="ConContainer">
+            <div className="ConContainer">
               <p
                 className="contactText contactText11"
                 style={{
@@ -75,7 +75,7 @@ function Contact() {
               </div>
             </div>
 
-            <div data-aos="fade-right" data-aos-easing="linear" className="ConContainer">
+            <div className="ConContainer">
               <p
                 className="contactText"
                 style={{

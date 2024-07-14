@@ -30,11 +30,11 @@ function About() {
    <div id="About" className="AboutMain">
    <span className="about" data-aos="fade-in ease-in" data-aos-duration="2000" >ABOUT</span>
    <span className="aboutText" data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="1500">
-  I've gained extensive experience in Product Design and Development through collabs with diverse organizations, from startups to MNC's.&nbsp;&nbsp;Currently, I'm also working on my clothing line, <a href="" className="aboutTexts">CRISP</a>, aiming to revolutionize men's fashion.<br></br><br></br>
+  I've gained extensive experience in Product Design and Development through collabs with diverse organizations, from startups to MNC's.Currently, I'm also working on my clothing line, <a href="" className="aboutTexts">CRISP</a>, aiming to revolutionize men's fashion.<br></br><br></br>
   In 2023, I Started <a href="https://www.instagram.com/xyzspace.in/" target="_blank" className="aboutTexts">XYZspace.in</a>, a platform offering comprehensive digital design solutions and soon venturing into the tech space.<br></br><br></br>
   I love exploring new destinations with friends, and I share those experiences on our social handle, <a href="https://www.instagram.com/streetdogsz/" target="_blank" className="aboutTexts">street dogsz</a> I enjoy engaging with people and their stories, finding comfort in late-night conversations over tea or coffee.<br></br><br></br>
-  By day, I am just another face in the crowd, seamlessly blending into the hustle and bustle of everyday life.&nbsp;&nbsp;But when the sun sets and darkness envelops the city, something within me awakens—a call to a higher purpose, a drive to seek justice and protect those who cannot protect themselves.<br></br><br></br>
-  In this twilight world, I find my true self.&nbsp;&nbsp;The line between myth and reality blurs, and I embrace the legend I have become.&nbsp;&nbsp;I am the protector, the watchful eye, the silent guardian.<br></br><br></br>
+  By day, I am just another face in the crowd, seamlessly blending into the hustle and bustle of everyday life. But when the sun sets and darkness envelops the city, something within me awakens—a call to a higher purpose, a drive to seek justice and protect those who cannot protect themselves.<br></br><br></br>
+  In this twilight world, I find my true self. The line between myth and reality blurs, and I embrace the legend I have become. I am the protector, the watchful eye, the silent guardian.<br></br><br></br>
   <a href="" className="aboutTextss">I am Batman</a>
 </span>
 
