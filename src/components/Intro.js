@@ -27,14 +27,15 @@ function Intro() {
     'ENTREPRENEUR @ CRISP',
     'CRICKETER',
     'ART & CINEMA AFICIONADO',
-    'DIGITAL CONTENT CREATOR'
+    'DIGITAL CONTENT CREATOR',
+    'SWE @ 5Elements Digital'
   ];
   const [wordIndex, setWordIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [typing, setTyping] = useState(true);
 
-  const typingSpeed = 150; // milliseconds per character
-  const eraseSpeed = 100; // milliseconds per character
+  const typingSpeed = 100; // milliseconds per character
+  const eraseSpeed = 80; // milliseconds per character
   const delayBetweenWords = 4000; // milliseconds
 
   useEffect(() => {

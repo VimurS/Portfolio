@@ -43,7 +43,7 @@ function Projects() {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
             </Carousel.Caption>
             <div className='carosText'>
-              <p><FaLock style={{color:"lime"}} /> 5 Elements is a GenAI powered Knowledge Engineering SaaS Platform developed under (NDA)</p>
+              <p><a href="https://5elements.digital/" target="_blank" className="aboutTexts">5elements.digital</a> is a GenAI powered Knowledge Engineering SaaS Platform developed under (NDA)</p>
               {/* <span>ROLE: Software Engineer</span><br />
               <span>PROJECT: 5 Elements</span><br /> */}
             </div>
