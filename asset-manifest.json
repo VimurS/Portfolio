@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.25a0552d.css",
-    "main.js": "/Portfolio/static/js/main.f0d5ee9c.js",
+    "main.css": "/Portfolio/static/css/main.5bcf7abc.css",
+    "main.js": "/Portfolio/static/js/main.5682f7e6.js",
     "static/js/453.ed3810f9.chunk.js": "/Portfolio/static/js/453.ed3810f9.chunk.js",
     "static/media/meatcafe.jpg": "/Portfolio/static/media/meatcafe.87a96c2c2663549b01f6.jpg",
     "static/media/me.png": "/Portfolio/static/media/me.e2c6255bbb357a60bb40.png",
@@ -15,12 +15,12 @@
     "static/media/TerminaTest-Bold.otf": "/Portfolio/static/media/TerminaTest-Bold.fbe09ff096cdce4c04c0.otf",
     "static/media/TerminaTest-Regular.otf": "/Portfolio/static/media/TerminaTest-Regular.f837bfd032214b88fe55.otf",
     "index.html": "/Portfolio/index.html",
-    "main.25a0552d.css.map": "/Portfolio/static/css/main.25a0552d.css.map",
-    "main.f0d5ee9c.js.map": "/Portfolio/static/js/main.f0d5ee9c.js.map",
+    "main.5bcf7abc.css.map": "/Portfolio/static/css/main.5bcf7abc.css.map",
+    "main.5682f7e6.js.map": "/Portfolio/static/js/main.5682f7e6.js.map",
     "453.ed3810f9.chunk.js.map": "/Portfolio/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25a0552d.css",
-    "static/js/main.f0d5ee9c.js"
+    "static/css/main.5bcf7abc.css",
+    "static/js/main.5682f7e6.js"
   ]
 }
